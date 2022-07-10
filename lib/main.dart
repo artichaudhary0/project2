@@ -25,9 +25,11 @@ class HomePage extends StatelessWidget {
     return Material(
       child: Center(
         child: Container(
-          color: const Color(0xE5E5E5),
+          color: const Color(0x00e5e5e5),
           child: Padding(
             padding: const EdgeInsets.all(10.0),
+
+            //This is for the Heading (Task)
             child: Column(
               children: [
                 Expanded(
@@ -50,6 +52,9 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 Expanded(
+                  
+                  //This container can be made clickable accourding to the requirement.
+                  
                   child: Container(
                     decoration: const BoxDecoration(
                       color: Colors.white,

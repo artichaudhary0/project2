@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: "Project",
       home: HomePage(),
     );
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
     return Material(
       child: Center(
         child: Container(
-          color: Color(0xE5E5E5),
+          color: const Color(0xE5E5E5),
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Column(
@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
                 Expanded(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                    children: const [
                       Text(
                         "Task",
                         style: TextStyle(
@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
                 ),
                 Expanded(
                   child: Container(
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
                         topRight: Radius.circular(15),
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                         children: [
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
+                            children: const [
                               Text(
                                 "00:32:10",
                                 style: TextStyle(
@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
                           Expanded(
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
+                              children: const [
                                 Icon(
                                   Icons.circle_outlined,
                                   color: Color.fromRGBO(112, 18, 206, 1),
@@ -109,7 +109,7 @@ class HomePage extends StatelessWidget {
                 Expanded(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                    children: const [
                       Text(
                         "Today",
                         style: TextStyle(
@@ -130,53 +130,53 @@ class HomePage extends StatelessWidget {
                 CardView(
                   workName: "UI Design",
                   buttonName1: "work",
-                  textColor1: Color.fromRGBO(253, 91, 113, 1),
+                  textColor1: const Color.fromRGBO(253, 91, 113, 1),
                   time: "00:42:21",
-                  iconName: Icon(Icons.computer),
+                  iconName: const Icon(Icons.computer),
                   buttonName2: 'Rasion',
-                  buttonColor1: Color.fromRGBO(255, 239, 241, 1),
-                  buttonColor2: Color.fromRGBO(245, 238, 252, 1),
-                  textColor2: Color.fromRGBO(155, 81, 224, 1),
-                  circleAvatorColor: Color.fromRGBO(155, 81, 224, 1),
+                  buttonColor1: const Color.fromRGBO(255, 239, 241, 1),
+                  buttonColor2: const Color.fromRGBO(245, 238, 252, 1),
+                  textColor2: const Color.fromRGBO(155, 81, 224, 1),
+                  circleAvatorColor: const Color.fromRGBO(155, 81, 224, 1),
                 ),
                 CardView(
                   workName: "100x Sit-Up",
                   buttonName1: "Personal",
-                  textColor1: Color.fromRGBO(130, 130, 130, 1),
+                  textColor1: const Color.fromRGBO(130, 130, 130, 1),
                   time: "00:14:06",
-                  iconName: Icon(Icons.sports_gymnastics),
+                  iconName: const Icon(Icons.sports_gymnastics),
                   buttonName2: 'Workout',
-                  buttonColor1: Color.fromRGBO(242, 242, 242, 1),
-                  buttonColor2: Color.fromRGBO(254, 245, 237, 1),
-                  textColor2: Color.fromRGBO(255, 166, 86, 1),
-                  circleAvatorColor: Color.fromRGBO(255, 166, 86, 1),
+                  buttonColor1: const Color.fromRGBO(242, 242, 242, 1),
+                  buttonColor2: const Color.fromRGBO(254, 245, 237, 1),
+                  textColor2: const Color.fromRGBO(255, 166, 86, 1),
+                  circleAvatorColor: const Color.fromRGBO(255, 166, 86, 1),
                 ),
                 CardView(
                   workName: 'Learn HTML & CSS',
                   buttonName1: "Personal",
-                  textColor1: Color.fromRGBO(130, 130, 130, 1),
+                  textColor1: const Color.fromRGBO(130, 130, 130, 1),
                   time: "00:24:52",
-                  iconName: Icon(Icons.code),
+                  iconName: const Icon(Icons.code),
                   buttonName2: 'Coding',
-                  buttonColor1: Color.fromRGBO(242, 242, 242, 1),
-                  buttonColor2: Color.fromRGBO(255, 239, 241, 1),
-                  textColor2: Color.fromRGBO(253, 91, 113, 1),
-                  circleAvatorColor: Color.fromRGBO(253, 91, 113, 1),
+                  buttonColor1: const Color.fromRGBO(242, 242, 242, 1),
+                  buttonColor2: const Color.fromRGBO(255, 239, 241, 1),
+                  textColor2: const Color.fromRGBO(253, 91, 113, 1),
+                  circleAvatorColor: const Color.fromRGBO(253, 91, 113, 1),
                 ),
                 CardView(
                   workName: "Read 10 pages of book",
                   buttonName1: "Personal",
-                  textColor1: Color.fromRGBO(130, 130, 130, 1),
+                  textColor1: const Color.fromRGBO(130, 130, 130, 1),
                   time: "00:21:09",
-                  iconName: Icon(Icons.menu_book_sharp),
+                  iconName: const Icon(Icons.menu_book_sharp),
                   buttonName2: 'Reading',
-                  buttonColor1: Color.fromRGBO(242, 242, 242, 1),
-                  buttonColor2: Color.fromRGBO(230, 252, 244, 1),
-                  textColor2: Color.fromRGBO(7, 224, 146, 1),
-                  circleAvatorColor: Color.fromRGBO(7, 224, 146, 1),
+                  buttonColor1: const Color.fromRGBO(242, 242, 242, 1),
+                  buttonColor2: const Color.fromRGBO(230, 252, 244, 1),
+                  textColor2: const Color.fromRGBO(7, 224, 146, 1),
+                  circleAvatorColor: const Color.fromRGBO(7, 224, 146, 1),
                 ),
                 Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Color.fromRGBO(255, 255, 255, 1),
                     borderRadius: BorderRadius.only(
                       topRight: Radius.circular(15),
@@ -188,21 +188,21 @@ class HomePage extends StatelessWidget {
                     children: [
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(
+                        icon: const Icon(
                           Icons.access_time,
                         ),
                         tooltip: "Total Time",
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(
+                        icon: const Icon(
                           Icons.add_circle,
                         ),
                         tooltip: "Add Task",
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Icon(
+                        icon: const Icon(
                           Icons.pie_chart_outline_outlined,
                         ),
                         tooltip: "Progress",
@@ -232,8 +232,8 @@ class HomePage extends StatelessWidget {
     return Expanded(
       child: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.only(bottom: 10),
-          decoration: BoxDecoration(
+          margin: const EdgeInsets.only(bottom: 10),
+          decoration: const BoxDecoration(
             color: Color.fromRGBO(255, 255, 255, 1),
             borderRadius: BorderRadius.only(
               topRight: Radius.circular(15),
@@ -254,7 +254,7 @@ class HomePage extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 Expanded(
@@ -263,7 +263,7 @@ class HomePage extends StatelessWidget {
                     children: [
                       Text(
                         workName,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 20,
                           color: Colors.black,
@@ -273,6 +273,10 @@ class HomePage extends StatelessWidget {
                         children: [
                           TextButton(
                             onPressed: () {},
+                            style: ButtonStyle(
+                              backgroundColor:
+                                  MaterialStateProperty.all(buttonColor1),
+                            ),
                             child: Text(
                               buttonName1,
                               style: TextStyle(
@@ -280,26 +284,22 @@ class HomePage extends StatelessWidget {
                                 color: textColor1,
                               ),
                             ),
-                            style: ButtonStyle(
-                              backgroundColor:
-                                  MaterialStateProperty.all(buttonColor1),
-                            ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           TextButton(
                             onPressed: () {},
+                            style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all(
+                                buttonColor2,
+                              ),
+                            ),
                             child: Text(
                               buttonName2,
                               style: TextStyle(
                                 fontWeight: FontWeight.w400,
                                 color: textColor2,
-                              ),
-                            ),
-                            style: ButtonStyle(
-                              backgroundColor: MaterialStateProperty.all(
-                                buttonColor2,
                               ),
                             ),
                           ),
@@ -313,12 +313,12 @@ class HomePage extends StatelessWidget {
                     children: [
                       Text(
                         time,
-                        style: TextStyle(
+                        style: const TextStyle(
                             fontWeight: FontWeight.w400,
                             color: Color.fromRGBO(79, 79, 79, 1),
                             fontSize: 20),
                       ),
-                      Icon(
+                      const Icon(
                         Icons.play_arrow,
                         color: Color.fromRGBO(130, 130, 130, 1),
                       ),
